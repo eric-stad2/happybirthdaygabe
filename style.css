@@ -1,21 +1,18 @@
-/* Apply changes across the entire viewport */
 body {
-    background-color: #6a1b9a; /* Set the deep purple background */
+    background-color: #6a1b9a;
     margin: 0;
     padding: 0;
-    height: 100vh; /* Force layout to fill full screen height */
+    height: 100vh; 
     display: flex;
-    justify-content: center; /* Horizontally center content */
-    align-items: center; /* Vertically center content */
+    justify-content: center; 
+    align-items: center; 
     font-family: Arial, sans-serif;
 }
 
-/* Align layout components */
 .container {
     text-align: center;
 }
 
-/* Style the interactive button */
 button {
     padding: 12px 24px;
     font-size: 16px;
@@ -27,14 +24,12 @@ button {
     font-weight: bold;
 }
 
-/* Style the display text appearance */
 p {
     color: #ffffff;
     font-size: 20px;
     margin-top: 20px;
 }
 
-/* Hide the element completely by default */
 .hidden {
     display: none;
 }
