@@ -4,28 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>son</title>
-    <!-- Links the CSS file for styling -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
-        <!-- The interactive button -->
         <button id="revealBtn">click</button>
         
-        <!-- Hidden paragraph that displays later -->
         <p id="hiddenText" class="hidden">happy birthday son</p>
     </div>
 
-    <!-- JavaScript code to handle the interaction -->
     <script>
-        // Store references to the button and text elements
         const button = document.getElementById('revealBtn');
         const text = document.getElementById('hiddenText');
 
-        // Listen for user clicks on the button
         button.addEventListener('click', function() {
-            // Remove the hidden CSS style to make the text appear
             text.classList.remove('hidden');
         });
     </script>
